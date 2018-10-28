@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-item>
+   <ion-label floating>First Number</ion-label>
+  <ion-input type="number" [(ngModel)]="firstNumber"></ion-input>
+ </ion-item>
+  <br>
+  <br>
+ <ion-item>
+   <ion-label floating>Second Number</ion-label>
+   <ion-input type="number" [(ngModel)]="secondNumber"></ion-input>
+ </ion-item>
+  <br>
+  <br>
+  <div text-center>
+  <button ion-button outline round (click)="sum()">Add </button>
+  </div>
+</ion-content>

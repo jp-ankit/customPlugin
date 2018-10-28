@@ -1,0 +1,7 @@
+{
+  "name": "integrate-custom-plugin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
